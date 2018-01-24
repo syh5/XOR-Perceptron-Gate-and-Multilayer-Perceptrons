@@ -18,7 +18,6 @@ def computeGrad(X,y,theta,reg): # returns nabla
     return (dW,db)
 
 def computeCost(X,y,theta,reg):
-	# WRITEME: write your code here to complete the routine
     N = len(y)
     _,probs,_ = predict(X,theta)
     cost = -np.mean(np.log(probs[range(N),y]))+0.5*reg*np.sum(np.square(theta[0]))
