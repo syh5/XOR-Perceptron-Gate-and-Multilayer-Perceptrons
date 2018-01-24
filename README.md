@@ -1,6 +1,12 @@
 # XOR-Perceptron-Gate-and-Multilayer-Perceptrons
+# Note:
+
+Anaconda is used for this project as it includes pandas and matplotlib.
 
 # XOR Problem:
+Sample data:
+
+Spiral_train.dat
 
 Sample XOR Perceptron Gate:
 
